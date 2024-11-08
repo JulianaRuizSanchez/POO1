@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Factura.FacturaForm">
+  <grid id="27dc6" binding="FacturaForm" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="684" height="660"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="c4c6f" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="423b3" class="javax.swing.JLabel" binding="LabelFactura">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="FACTURA"/>
+            </properties>
+          </component>
+          <component id="d8116" class="javax.swing.JSpinner" binding="Numero">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="40" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1245c" class="javax.swing.JLabel" binding="LabelTitulo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <text value="&lt;html&gt;&lt;body&gt;Supermercado La Canasta &lt;br&gt; Familiar Ltda&lt;/body&gt;&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="94a61" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="30" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="N°"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f1bf2" layout-manager="GridLayoutManager" row-count="3" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-5920853"/>
+        </border>
+        <children>
+          <component id="b6bd5" class="javax.swing.JTextPane" binding="Cliente">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="20"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2293c" class="javax.swing.JTextPane" binding="Direccion">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="15"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="b6813" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="15"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="CLIENTE"/>
+            </properties>
+          </component>
+          <component id="660cc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="DIRECCIÓN"/>
+            </properties>
+          </component>
+          <component id="12381" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TELÉFONO"/>
+            </properties>
+          </component>
+          <component id="8fc93" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TIPO DE PAGO"/>
+            </properties>
+          </component>
+          <component id="d6b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="RUC"/>
+            </properties>
+          </component>
+          <component id="8138d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CIUDAD"/>
+            </properties>
+          </component>
+          <component id="eab67" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CANT. LETRAS"/>
+            </properties>
+          </component>
+          <component id="1a223" class="javax.swing.JComboBox" binding="TipoPago">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="70" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="bc4ad" class="javax.swing.JTextPane" binding="Ruc">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a09c6" class="javax.swing.JTextPane" binding="Ciudad">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="92fb2" class="javax.swing.JComboBox" binding="CantLetras">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="63900" class="javax.swing.JTextPane" binding="Telefono">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="70" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="b8289" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <color color="-5920853"/>
+        </border>
+        <children>
+          <component id="92954" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="CANTIDAD"/>
+            </properties>
+          </component>
+          <component id="cdc79" class="javax.swing.JTextPane" binding="Cantidad1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5573a" class="javax.swing.JTextPane" binding="Cantidad2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="44928" class="javax.swing.JTextPane" binding="Cantidad3">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="83ff5" class="javax.swing.JTextPane" binding="Cantidad4">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a33a4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="DESCRIPCIÓN"/>
+            </properties>
+          </component>
+          <component id="8b561" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="P. UNITARIO"/>
+            </properties>
+          </component>
+          <component id="1cc35" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="IMPORTE"/>
+            </properties>
+          </component>
+          <component id="d339d" class="javax.swing.JTextPane" binding="Descripcion1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2b7fe" class="javax.swing.JTextPane" binding="PrecioUnitario1">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5e438" class="javax.swing.JTextPane" binding="Importe1">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="838cc" class="javax.swing.JTextPane" binding="Importe2">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="e8a13" class="javax.swing.JTextPane" binding="Importe3">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="94b60" class="javax.swing.JTextPane" binding="PrecioUnitario2">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7711a" class="javax.swing.JTextPane" binding="Descripcion2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="430d2" class="javax.swing.JTextPane" binding="Descripcion3">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a702f" class="javax.swing.JTextPane" binding="PrecioUnitario3">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="87131" class="javax.swing.JTextPane" binding="Descripcion4">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3d60f" class="javax.swing.JTextPane" binding="PrecioUnitario4">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ccea4" class="javax.swing.JTextPane" binding="Importe4">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="22a22" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="53a66" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TOTAL"/>
+            </properties>
+          </component>
+          <component id="9d644" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="I.G.V. 19%"/>
+            </properties>
+          </component>
+          <component id="e22bb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TOTAL PAGAR"/>
+            </properties>
+          </component>
+          <component id="1bf62" class="javax.swing.JTextPane" binding="Total">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="90" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="e9353" class="javax.swing.JTextPane" binding="IGV">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="90" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="609f1" class="javax.swing.JTextPane" binding="TotalPago">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="90" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
+          </component>
+          <component id="e6537" class="javax.swing.JButton" binding="Limpiar">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="LIMPIAR"/>
+            </properties>
+          </component>
+          <component id="4757d" class="javax.swing.JButton" binding="Calcular">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="CALCULAR"/>
+            </properties>
+          </component>
+          <component id="e6bff" class="javax.swing.JButton" binding="Nuevo">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="NUEVO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
