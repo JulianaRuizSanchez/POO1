@@ -1,3 +1,7 @@
+//4.	Escribe un programa que solicite al usuario ingresar un número entero positivo.
+// El programa deberá imprimir la secuencia de números primos hasta el número ingresado por el usuario,
+// utilizando un ciclo for y un método que determine si un número es primo o no.
+
 package SecuenciaPrimos;
 
 import javax.swing.*;
